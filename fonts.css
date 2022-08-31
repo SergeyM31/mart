@@ -1,0 +1,123 @@
+@font-face {
+	font-family: 'GolosTextWebRegular';
+	src:
+		url('fonts/Golos-Text_Regular.woff2') format('woff2'),
+		url('fonts/Golos-Text_Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'GolosTextWebDemiBold';
+	src:
+		url('fonts/Golos-Text_DemiBold.woff2') format('woff2'),
+		url('fonts/Golos-Text_DemiBold.woff') format('woff');
+	font-weight: bold;
+	font-style: bold;
+}
+
+@font-face {
+	font-family: 'GolosTextWebMedium';
+	src:
+		url('fonts/Golos-Text_Medium.woff2') format('woff2'),
+		url('fonts/Golos-Text_Medium.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src:
+		url('fonts/Roboto-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* portfolio */
+
+  
+/* main */
+.read_more, .text_act, .act_block p, .about_container .author p {
+    font-size: 28px;
+}
+  
+.read_more, .text_act, .act_block p {
+    font-size: 28px;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    letter-spacing: .01em;
+}
+  
+/*  */
+
+  .foot_top, .foot_bot p {
+    font-size: 24px;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+  }
+
+  .inner_mob_link, .links a, .menu_mob_nav a {
+    cursor: pointer;
+    transition: .2s;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: "GolosTextWebMedium", sans-serif;
+    letter-spacing: .1em;
+    font-size: 26px;
+  }
+
+  .biography, .inner_films, .header_text p, .about_container p {
+    font-size: 21px;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    line-height: 1.3em;
+  }
+
+
+
+  @media only screen and (max-width:1169px) {
+    /* FONTS */
+    a.read_more, div.text_act, div.act_block p, .about_container .author p {
+      font-size: 21px;
+    }
+    div.biography, div.inner_films, div.header_text p, .about_container p {
+      font-size: 15px;
+    }
+    div.foot_top, div.foot_bot p {
+      font-size: 18px;
+    }
+  }
+  
+  @media only screen and (max-width:769px) {
+    /* FONTS */
+    a.read_more, div.text_act, div.act_block p, .about_container .author p {
+      font-size: 16px;
+    }
+    div.biography, div.inner_films, div.header_text p, .about_container p {
+      font-size: 12px;
+    }
+    div.foot_top, div.foot_bot p {
+      font-size: 13px;
+    }
+    div.header_name p {
+      font-size: 30px;
+    }
+  }
+
+
+@media only screen and (max-width:1469px) {
+    div.portfolio_user h1 {
+        font-size: 60px;
+    }
+
+    div.portfolio_menu .links a {
+        font-size: 20px;
+      }
+}
+
+@media only screen and (max-width:600px) {
+  div.portfolio_user h1 {
+      font-size: 30px;
+  }
+}
